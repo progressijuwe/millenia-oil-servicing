@@ -1,0 +1,122 @@
+.a{
+    padding-right: 100px;
+    font-size: 120%;
+    color: orange;
+    text-decoration: none;
+}
+.a:link{
+    text-decoration: none;
+}
+.a:visited{
+    text-decoration: none;
+}
+
+.a:hover {
+    background-color: transparent;
+    color:grey;
+    text-decoration: none;
+}
+.a:active{
+    text-decoration: none;
+}
+.submit {
+    border-radius:10%; 
+    width:70px; 
+    height:20px;
+    background-color: orange;
+    color: white;
+    margin-left: 300px;
+}
+
+.showSlide {  
+    display: none  
+}  
+    .showSlide img {  
+        width: 100%; 
+        height: 700px; 
+    }  
+.slidercontainer {  
+    max-width: 100%;  
+   
+    position: relative;  
+    margin: auto;  
+}  
+.left, .right {  
+    cursor: pointer;  
+    position: absolute;  
+    top: 50%;  
+    width: auto;  
+    padding: 16px;  
+    margin-top: -22px;  
+    color: white;  
+    font-weight: bold;  
+    font-size: 18px;  
+    transition: 0.6s ease;  
+    border-radius: 0 3px 3px 0;  
+}  
+.right {  
+    right: 0;  
+    border-radius: 3px 0 0 3px;  
+}  
+    .left:hover, .right:hover {  
+        background-color: rgba(115, 115, 115, 0.8);  
+    } 
+.b{
+    font-size: 700%;
+} 
+.c{
+    font-size:600%;
+}
+.d{
+    font-size:550%;
+}
+.e{
+    font-size:140%;
+}
+
+.text-block {
+    
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+    color: white;
+    padding-left: 0px;
+    padding-right: 200px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    color: white;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.showSlide {
+    position:relative; 
+    animation:animateright 0.8s;
+}
+@keyframes animateright{
+    from{
+        left:300px;opacity:1} 
+    to{
+        left:0;opacity:1}
+}
+@media screen and (max-width: 900px) {
+    .slidercontainer {
+       width: 50%;
+    }
+    .text-block {
+        font-size: 50px;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .slidercontainer {
+       width: 100%;
+    }
+    .text-block {
+        font-size: 120px;
+    }
+ }

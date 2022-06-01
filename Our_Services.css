@@ -1,0 +1,44 @@
+.a{
+    padding-right: 80px;
+    font-size: 20px;
+    color: orange;
+}
+.a:link{
+    text-decoration: none;
+}
+.a:visited{
+    text-decoration: none;
+}
+
+.a:hover {
+    background-color: transparent;
+    color:grey;
+    text-decoration: none;
+}
+.a:active{
+    text-decoration: none;
+}
+.first {
+    font-size:50px; 
+    font-family:'Times New Roman', Times, serif; 
+    background-image: url('bim.jpg');
+    padding-top:40px;
+    background-size: cover;
+    text-align: center;
+    color:orange;
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+.os {
+    font-size: 25px;
+    color: gray;
+    font-weight: bolder;
+    text-align:center;
+    margin-left:80px;
+    text-decoration: none;
+}
+.os:hover {
+    background-color: beige;
+    color:orange;
+    text-decoration: none;
+}
